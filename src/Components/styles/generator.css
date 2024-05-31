@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.generator {
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    place-items: center;
+}
+
+.generator__color {
+    width: min(760px, 100%);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-block: 20px;
+}
+
+.generator__color__hex {
+    color: #ffffff;
+}
+
+.generator__btn button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #737373;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 3vmin;
+}
+
+.generator__btn button:hover {
+    cursor: pointer;
+}
